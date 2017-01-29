@@ -1,0 +1,22 @@
+body {
+    background-color: #f5f5d5;
+}
+
+h1 {
+    text-align: center;
+}
+
+#box {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a: any-link {
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 240px;
+    text-align: center;
+}
