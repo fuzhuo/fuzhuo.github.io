@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <title>懒喵 AppleTV4</title>
+    </head>
+    <body>
+        <div id="box">
+            <h1>懒喵 AppleTV4</h1>
+            <img src="https://p1.bqimg.com/567571/7cd7cd7df0e33c8d.png" width="120"/>
+            <br>
+            <p>懒喵是我业余时间兴趣开发的一个主要为自用的聚合类媒体软件，帮助没有在国内上市的AppleTV4观看视频，目前包含直播、各种点播、VIU等。TestFlight版本提供完整体验，可以免费申请测试，媒体资源均来源于网络仅供测试交流使用，请勿商业使用</p>
+            <p>回复时填写邮箱地址我会发送TestFlight邀请码，建议加入QQ群(240586801)，以后可能会加入群验证</p>
+            <p>如不会使用TestFlight给AppleTV4安装软件请看<a href="testflight.html">AppleTV4使用TestFlight安装软件教程</a></p>
+            <p>回复框不需要注册，请勿在正文回复自己的邮箱地址，保护隐私</p>
+            <script>
+                var idcomments_acct = '5e3272fbc5185d532c937ca9141647f2';
+                var idcomments_post_id;
+                var idcomments_post_url;
+            </script>
+            <span id="IDCommentsPostTitle" style="display:none"></span>
+            <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+        </div>
+    </body>
+</html>
