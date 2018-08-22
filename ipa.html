@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <title>Apple TV4/4K安装ipa教程</title>
+    </head>
+    <body>
+        <div id="box">
+            <h1>Apple TV4/4K安装ipa教程</h1>
+            <div>
+                <p>很多人想安装Kodi、浏览器、游戏模拟器之类的，因为版权之类的限制不能上架，所以这些软件是以deb或ipa的方式存在的。很多人问怎么安装，写个综合的教程</p>
+                <p></p>
+                <p>首先你需要一台运行macOS的电脑</p>
+                <p>TV4有type-C接口，直接连接上macOS就行了。TV4K只能通过无线连上macOS</p>
+                <h2>TV4K怎么无线连接到Xcode</h2>
+                <p>从macOS应用商店安装Xcode9以上的版本</p>
+                <p>打开Xcode进入到菜单 Window - "Device and Simulators"</p>
+                <p>打开TV的设置 - "摇控器与设备" - "摇控器应用与设备"，在Xcode的窗口上会发现AppleTV，点Pair输入AppleTV上弹出的验证码，然后就连接上了</p>
+
+                <h2>怎么用Xcode安装软件</h2>
+                <p>打开 Window - "Device and Simulators"，选种你已连接的AppleTV设备，在右边的窗口点加号，然后选择ipa文件来进行安装。能正常安装的前提是，这个ipa签名用的描述文件包含你设备的Identifier (UDID)。</p>
+                <p>如果你不是开发者，你的签名有效期为7天，7天过期后软件将不再可用，你需要重新签名使用。你可以找开发者帮你签名，但需要向其提供你自己的设备Identifier (UDID)，开发者签名后把ipa发给你，下载后安装使用</p>
+                <p>怎么得到自己设备的Identifier (UDID)?</p>
+                <p>打开Xcode - Window - "Device and Simulators"，选择你已连接的AppleTV，Identifier: 栏后面的一长串16进制的数字就是</p>
+
+                <p>如果你选择成为苹果开发者，需要从Apple申请，年费每年99美元，每一个个人开发者最多可以添加100台AppleTV用作真机测试。</p>
+                <br/>
+                <br/>
+                <h2>我自己是开发者怎么帮别人签名ipa</h2>
+                <p>1. 打开并登录<a href="https://developer.apple.com">https://developer.apple.com</a></p>
+                <p>2. 打开Certificates, Identifiers &amp; Profiles</p>
+                <p>3. 打开App IDs，在里面新建一个App ID，名字随自己取</p>
+                <p>4. 在Device - Appe TV 中添加对方设备的Identifier</p>
+                <p>5. 打开Distribution，新建一个tvos AdHoc的描述文件，选择之前创建的App ID，并选择你想要支持的AppleTV列表</p>
+                <p>6. 下载第5步生成的.mobileprovision文件</p>
+                <p>7. 使用iOS App Singer软件，打开要签名的ipa，选择第6步下载的描述文件，点击签名得到签名后的ipa</p>
+                <p>8. 通过网盘、群共享之类的方式分享这个ipa给能使用的人</p>
+                </p>
+                <br>
+                <br>
+            </div>
+            <div class="footer">
+                <p>
+                 ©2018 秋刀猫
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
